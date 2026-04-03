@@ -60,7 +60,27 @@ Serving         TiTiler (COG), FastAPI, Next.js
 
 ---
 
+#### Organizations I lead
+
+| Organization | Role | Focus |
+|:-------------|:-----|:------|
+| [IMACS-Health-Modeling](https://github.com/IMACS-Health-Modeling) | Founder and Lead | Foundation models, multi-agent platforms, SAGE engine, and climate-health intelligence across 22 repositories |
+| [Forecasting-Healthy-Futures](https://github.com/Forecasting-Healthy-Futures) | Founder and Lead | Climate-informed disease forecasting and early warning systems for LMICs across 30 repositories with 8 contributors |
+| [UnlockDigitalHealth](https://github.com/UnlockDigitalHealth) | Founder | Digital health infrastructure and open-source tools for health system strengthening |
+
 #### Selected repositories
+
+**Platform and AI systems** (under [IMACS-Health-Modeling](https://github.com/IMACS-Health-Modeling))
+
+| Repository | What it does |
+|:-----------|:-------------|
+| [imacs-sage](https://github.com/IMACS-Health-Modeling/imacs-sage) | SAGE -- Scientific Advisory and Guidance Engine. Multi-agent orchestration platform for global health intelligence |
+| [imacs-sage-playground](https://github.com/IMACS-Health-Modeling/imacs-sage-playground) | Foundation model AI playground -- interactive demo for the 7B parameter model with MoLE expert routing |
+| [AI-Sandbox](https://github.com/IMACS-Health-Modeling/AI-Sandbox) | Agentic AI sandbox -- RAG pipelines, multi-agent prototyping, and tool-calling agent experimentation |
+| [malaria-intelligence-platform](https://github.com/IMACS-Health-Modeling/malaria-intelligence-platform) | Multi-country malaria analytics with climate-driven forecasting and intervention tracking |
+| [imacs-cdah-main](https://github.com/IMACS-Health-Modeling/imacs-cdah-main) | Climate Data Analytics Hub -- multi-tenant health intelligence with data fabric and RBAC |
+
+**Data infrastructure and research** (personal)
 
 | Repository | What it does |
 |:-----------|:-------------|
@@ -69,7 +89,6 @@ Serving         TiTiler (COG), FastAPI, Next.js
 | [bdewarspred](https://github.com/drkaushiksarkar/bdewarspred) | Full-stack disease early warning and prediction system (890K+ lines TypeScript) |
 | [malaria-forecasting-system](https://github.com/drkaushiksarkar/malaria-forecasting-system) | Production malaria incidence forecasting with Terraform-managed cloud infrastructure |
 | [climate-disease-forecast](https://github.com/drkaushiksarkar/climate-disease-forecast) | Climate-driven disease prediction models using ERA5 reanalysis data |
-| [CNN_Skin_Cancer](https://github.com/drkaushiksarkar/CNN_Skin_Cancer) | Deep learning for dermatological diagnosis with class imbalance handling |
 
 ---
 
