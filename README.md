@@ -65,9 +65,9 @@ Serving       TiTiler (COG), FastAPI, Next.js
 
 #### Research
 
-Preparing submissions for NeurIPS 2026 on three topics: a training paradigm for domain-specialized foundation models, a multi-dimensional evaluation benchmark for health AI, and expert routing in mixture-of-experts architectures.
+Three active research tracks targeting NeurIPS 2026: a novel training paradigm for domain-specialized foundation models (EGDA), a multi-dimensional evaluation benchmark for health AI (CHIB), and expert routing in mixture-of-experts architectures (MoLE).
 
-Doctoral research in computational epidemiology with focus on AI-driven early warning systems for infectious disease outbreaks in low and middle-income countries.
+Prior work in computational epidemiology established AI-driven early warning systems for infectious disease outbreaks across low and middle-income countries -- systems now operational in multiple national health programs.
 
 ---
 
