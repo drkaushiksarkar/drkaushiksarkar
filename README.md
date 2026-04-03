@@ -1,6 +1,6 @@
 ### Kaushik Sarkar
 
-AI and product leader with 17 years of experience building and scaling technology-driven products across 17 countries. I architect production AI systems at the intersection of **health**, **economics**, and **climate** -- from billion-row data infrastructure to foundation model training pipelines.
+AI and product leader with 17 years of experience building and scaling technology-driven products across 17 countries. I architect production AI systems at the intersection of **health**, **economics**, and **climate** -- from billion-row data infrastructure to multi-agent orchestration and foundation model training.
 
 ---
 
@@ -16,17 +16,25 @@ AI and product leader with 17 years of experience building and scaling technolog
 
 #### What I build
 
+**Agentic AI and multi-agent systems**
+- Multi-agent orchestration pipelines with specialized tool-calling agents, MCP (Model Context Protocol) servers, and autonomous task decomposition
+- Workflow automation with n8n and custom agent frameworks for production decision support
+- RAG architectures combining vector retrieval, knowledge graph traversal, and LLM reasoning across 268M embedded passages
+- Edge AI deployment for low-connectivity environments in field health surveillance
+- LLM-as-judge evaluation systems with multi-dimensional scoring and automated quality gates
+
 **Data infrastructure at scale**
 - Apache Iceberg lakehouse federating 1.78 billion rows from 85 source organizations (WHO, World Bank, NOAA, IHME, UNICEF, OECD, and 79 others) across 58,000+ geographic entities spanning 1807 to 2100
 - 268 million vector embeddings in OpenSearch for semantic retrieval over biomedical literature
 - 33 million causal relation triples in a knowledge graph built from structured biomedical sources
 - Automated ingestion from 150+ APIs with EventBridge scheduling, deduplication, and lineage tracking
 
-**Machine learning and foundation models**
+**Foundation models and training**
 - End-to-end training pipelines: continued pretraining, supervised fine-tuning, direct preference optimization
 - Hard-negative DPO generation with BM25 recall and neural reranking
 - Custom evaluation benchmarks with multi-dimensional LLM-as-judge scoring
 - Mixture-of-experts routing with domain-specialized adapters
+- Distributed training across multi-GPU clusters with DeepSpeed and FSDP
 
 **Production systems**
 - Disease early warning and response systems serving national health programs
@@ -39,13 +47,15 @@ AI and product leader with 17 years of experience building and scaling technolog
 #### Technical surface
 
 ```
-Languages     Python, TypeScript, SQL, HCL, Shell
-Data          Apache Iceberg, Athena, DuckDB, PostgreSQL, Parquet
-Search        OpenSearch (AOSS + managed), BM25, kNN, HNSW
-ML/DL         PyTorch, Transformers, PEFT, DeepSpeed, vLLM
-Cloud         AWS (S3, Lambda, Glue, Bedrock, SageMaker, EFA)
-Infra         Terraform, Docker, EventBridge, CloudWatch
-Serving       TiTiler (COG), FastAPI, Next.js
+Languages       Python, TypeScript, SQL, HCL, Shell
+Agentic AI      MCP servers, tool-calling agents, n8n, LangGraph, autonomous orchestration
+LLM/FM          PyTorch, Transformers, PEFT, DeepSpeed, vLLM, GGUF, Ollama
+Data            Apache Iceberg, Athena, DuckDB, PostgreSQL, Parquet
+Search          OpenSearch (AOSS + managed), BM25, kNN, HNSW
+Cloud           AWS (S3, Lambda, Glue, Bedrock, SageMaker, EFA)
+Edge            ONNX Runtime, TFLite, quantized models for field deployment
+Infra           Terraform, Docker, EventBridge, CloudWatch
+Serving         TiTiler (COG), FastAPI, Next.js
 ```
 
 ---
@@ -54,8 +64,8 @@ Serving       TiTiler (COG), FastAPI, Next.js
 
 | Repository | What it does |
 |:-----------|:-------------|
-| [sage-warehouse-master](https://github.com/drkaushiksarkar/sage-warehouse-master) | 1.78B-row analytical warehouse with 117 production scripts, enterprise serving layer, and foundation model training pipeline |
-| [SPECTRA----Enterprise](https://github.com/drkaushiksarkar/SPECTRA----Enterprise) | Enterprise health system intelligence platform with spectral analysis and multi-source data fusion |
+| [sage-warehouse-master](https://github.com/drkaushiksarkar/sage-warehouse-master) | 1.78B-row analytical warehouse with 117 production scripts, enterprise API, and foundation model training pipeline |
+| [SPECTRA----Enterprise](https://github.com/drkaushiksarkar/SPECTRA----Enterprise) | Enterprise health system intelligence platform with multi-agent orchestration and data fusion |
 | [bdewarspred](https://github.com/drkaushiksarkar/bdewarspred) | Full-stack disease early warning and prediction system (890K+ lines TypeScript) |
 | [malaria-forecasting-system](https://github.com/drkaushiksarkar/malaria-forecasting-system) | Production malaria incidence forecasting with Terraform-managed cloud infrastructure |
 | [climate-disease-forecast](https://github.com/drkaushiksarkar/climate-disease-forecast) | Climate-driven disease prediction models using ERA5 reanalysis data |
