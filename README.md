@@ -4,7 +4,7 @@
 
 Foundation models. Multi-agent orchestration. Billion-row data infrastructure.
 
-[![Website](https://img.shields.io/badge/drkaushiks.com-000000?style=flat-square&logo=safari&logoColor=white)](https://www.drkaushiks.com)
+[![LinkedIn](https://img.shields.io/badge/Kaushik_Sarkar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaushik-sarkar-ai/)
 [![X](https://img.shields.io/badge/@drkaushiksarkar-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/drkaushiksarkar)
 
 ---
@@ -45,7 +45,7 @@ Foundation models. Multi-agent orchestration. Billion-row data infrastructure.
 ### GitHub activity
 
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=drkaushiksarkar&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=drkaushiksarkar&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=false" />
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=drkaushiksarkar&theme=default&hide_border=true" />
 </p>
 
