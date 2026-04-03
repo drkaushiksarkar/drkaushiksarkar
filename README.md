@@ -64,9 +64,9 @@ Serving         TiTiler (COG), FastAPI, Next.js
 
 | Organization | Role | Focus |
 |:-------------|:-----|:------|
-| [IMACS-Health-Modeling](https://github.com/IMACS-Health-Modeling) | Founder and Lead | Foundation models, multi-agent platforms, SAGE engine, and climate-health intelligence across 22 repositories |
-| [Forecasting-Healthy-Futures](https://github.com/Forecasting-Healthy-Futures) | Founder and Lead | Climate-informed disease forecasting and early warning systems for LMICs across 30 repositories with 8 contributors |
-| [UnlockDigitalHealth](https://github.com/UnlockDigitalHealth) | Founder | Digital health infrastructure and open-source tools for health system strengthening |
+| [IMACS](https://github.com/IMACS-Health-Modeling) | Founder and Lead | Foundation models, multi-agent platforms, SAGE engine, and climate-health intelligence across 22 repositories |
+| [FHF](https://github.com/Forecasting-Healthy-Futures) | Founder and Lead | Climate-informed disease forecasting and early warning systems across 30 repositories with 8 contributors |
+| [UDH](https://github.com/UnlockDigitalHealth) | Founder | Digital health infrastructure and open-source tools for health system strengthening |
 
 #### Selected repositories
 
