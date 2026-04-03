@@ -85,7 +85,7 @@ Serving         TiTiler (COG), FastAPI, Next.js
 | Repository | What it does |
 |:-----------|:-------------|
 | [sage-warehouse-master](https://github.com/drkaushiksarkar/sage-warehouse-master) | 1.78B-row analytical warehouse with 117 production scripts, enterprise API, and foundation model training pipeline |
-| [SPECTRA----Enterprise](https://github.com/drkaushiksarkar/SPECTRA----Enterprise) | Enterprise health system intelligence platform with multi-agent orchestration and data fusion |
+| [spectra-enterprise](https://github.com/drkaushiksarkar/spectra-enterprise) | Enterprise health intelligence platform with multi-agent orchestration and autonomous data fusion |
 | [bdewarspred](https://github.com/drkaushiksarkar/bdewarspred) | Full-stack disease early warning and prediction system (890K+ lines TypeScript) |
 | [malaria-forecasting-system](https://github.com/drkaushiksarkar/malaria-forecasting-system) | Production malaria incidence forecasting with Terraform-managed cloud infrastructure |
 | [climate-disease-forecast](https://github.com/drkaushiksarkar/climate-disease-forecast) | Climate-driven disease prediction models using ERA5 reanalysis data |
