@@ -1,118 +1,112 @@
-### Kaushik Sarkar
+## Kaushik Sarkar
 
-AI and product leader with 17 years of experience building and scaling technology-driven products across 17 countries. I architect production AI systems at the intersection of **health**, **economics**, and **climate** -- from billion-row data infrastructure to multi-agent orchestration and foundation model training.
+**AI and product leader** building production systems at the intersection of health, economics, and climate. 17 years scaling technology-driven products across 17 countries.
 
----
+Foundation models. Multi-agent orchestration. Billion-row data infrastructure.
 
-#### Industries
-
-**Health and Life Sciences** -- Disease early warning systems deployed across South and Southeast Asia. Real-time surveillance platforms processing epidemiological signals from WHO, CDC, IHME, and national health ministries. Deep learning for medical imaging diagnostics. Foundation models trained on 268 million biomedical evidence spans and 33 million causal knowledge graph triples.
-
-**Economics and Development Finance** -- Analytical infrastructure federating World Bank, OECD, AfDB, and ADB development indicators into unified queryable surfaces. Donor portfolio intelligence, ODA tracking, and country-level economic profiling across 40,000+ indicators. Trade and pharmaceutical market analysis pipelines.
-
-**Climate and Environment** -- Climate-health forecasting combining ERA5 reanalysis with disease incidence time series. Integration of NOAA station observations (982M+ records), CMIP6 climate projections, sea level monitoring, and tropical cyclone tracking. Geospatial serving with Cloud-Optimized GeoTIFF at 100m resolution.
+[![Website](https://img.shields.io/badge/drkaushiks.com-000000?style=flat-square&logo=safari&logoColor=white)](https://www.drkaushiks.com)
+[![X](https://img.shields.io/badge/@drkaushiksarkar-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/drkaushiksarkar)
 
 ---
 
-#### What I build
+### What I build
 
-**Agentic AI and multi-agent systems**
-- Multi-agent orchestration pipelines with specialized tool-calling agents, MCP (Model Context Protocol) servers, and autonomous task decomposition
-- Workflow automation with n8n and custom agent frameworks for production decision support
-- RAG architectures combining vector retrieval, knowledge graph traversal, and LLM reasoning across 268M embedded passages
-- Edge AI deployment for low-connectivity environments in field health surveillance
-- LLM-as-judge evaluation systems with multi-dimensional scoring and automated quality gates
+**Agentic AI** -- Multi-agent orchestration with MCP servers, tool-calling agents, autonomous task decomposition, and edge deployment for low-connectivity field surveillance
 
-**Data infrastructure at scale**
-- Apache Iceberg lakehouse federating 1.78 billion rows from 85 source organizations (WHO, World Bank, NOAA, IHME, UNICEF, OECD, and 79 others) across 58,000+ geographic entities spanning 1807 to 2100
-- 268 million vector embeddings in OpenSearch for semantic retrieval over biomedical literature
-- 33 million causal relation triples in a knowledge graph built from structured biomedical sources
-- Automated ingestion from 150+ APIs with EventBridge scheduling, deduplication, and lineage tracking
+**Foundation models** -- End-to-end training: continued pretraining, SFT, DPO, mixture-of-experts routing. Distributed training on multi-GPU clusters with DeepSpeed and FSDP
 
-**Foundation models and training**
-- End-to-end training pipelines: continued pretraining, supervised fine-tuning, direct preference optimization
-- Hard-negative DPO generation with BM25 recall and neural reranking
-- Custom evaluation benchmarks with multi-dimensional LLM-as-judge scoring
-- Mixture-of-experts routing with domain-specialized adapters
-- Distributed training across multi-GPU clusters with DeepSpeed and FSDP
+**Data at scale** -- Apache Iceberg lakehouse federating 1.78B rows from 85 organizations (WHO, World Bank, NOAA, IHME, OECD). 268M vector embeddings. 33M knowledge graph triples
 
-**Production systems**
-- Disease early warning and response systems serving national health programs
-- Malaria prediction infrastructure with Terraform-managed cloud deployment
-- Real-time surveillance dashboards processing multi-source health signals
-- Enterprise serving layers with persona-aware views for ministers, analysts, and donors
+**Production systems** -- Disease early warning platforms operational in national health programs. Malaria forecasting with Terraform-managed infrastructure. Real-time surveillance dashboards
 
 ---
 
-#### Technical surface
+### Technical surface
 
-```
-Languages       Python, TypeScript, SQL, HCL, Shell
-Agentic AI      MCP servers, tool-calling agents, n8n, LangGraph, autonomous orchestration
-LLM/FM          PyTorch, Transformers, PEFT, DeepSpeed, vLLM, GGUF, Ollama
-Data            Apache Iceberg, Athena, DuckDB, PostgreSQL, Parquet
-Search          OpenSearch (AOSS + managed), BM25, kNN, HNSW
-Cloud           AWS (S3, Lambda, Glue, Bedrock, SageMaker, EFA)
-Edge            ONNX Runtime, TFLite, quantized models for field deployment
-Infra           Terraform, Docker, EventBridge, CloudWatch
-Serving         TiTiler (COG), FastAPI, Next.js
-```
-
----
-
-#### Organizations I lead
-
-| Organization | Role | Focus |
-|:-------------|:-----|:------|
-| [IMACS](https://github.com/IMACS-Health-Modeling) | Founder and Lead | Foundation models, multi-agent platforms, SAGE engine, and climate-health intelligence across 22 repositories |
-| [FHF](https://github.com/Forecasting-Healthy-Futures) | Founder and Lead | Climate-informed disease forecasting and early warning systems across 30 repositories with 8 contributors |
-| [UDH](https://github.com/UnlockDigitalHealth) | Founder | Digital health infrastructure and open-source tools for health system strengthening |
-
-#### Selected repositories
-
-**Platform and AI systems** (under [IMACS-Health-Modeling](https://github.com/IMACS-Health-Modeling))
-
-| Repository | What it does |
-|:-----------|:-------------|
-| [imacs-sage](https://github.com/IMACS-Health-Modeling/imacs-sage) | SAGE -- Scientific Advisory and Guidance Engine. Multi-agent orchestration platform for global health intelligence |
-| [imacs-sage-playground](https://github.com/IMACS-Health-Modeling/imacs-sage-playground) | Foundation model AI playground -- interactive demo for the 7B parameter model with MoLE expert routing |
-| [AI-Sandbox](https://github.com/IMACS-Health-Modeling/AI-Sandbox) | Agentic AI sandbox -- RAG pipelines, multi-agent prototyping, and tool-calling agent experimentation |
-| [malaria-intelligence-platform](https://github.com/IMACS-Health-Modeling/malaria-intelligence-platform) | Multi-country malaria analytics with climate-driven forecasting and intervention tracking |
-| [imacs-cdah-main](https://github.com/IMACS-Health-Modeling/imacs-cdah-main) | Climate Data Analytics Hub -- multi-tenant health intelligence with data fabric and RBAC |
-
-**Data infrastructure and research**
-
-| Repository | What it does |
-|:-----------|:-------------|
-| [sage-warehouse-master](https://github.com/drkaushiksarkar/sage-warehouse-master) | 1.78B-row analytical warehouse with 117 production scripts, enterprise API, and foundation model training pipeline |
-| [spectra-enterprise](https://github.com/drkaushiksarkar/spectra-enterprise) | Enterprise health intelligence platform with multi-agent orchestration and autonomous data fusion |
-| [bdewarspred](https://github.com/drkaushiksarkar/bdewarspred) | Full-stack disease early warning and prediction system (890K+ lines TypeScript) |
-| [malaria-forecasting-system](https://github.com/drkaushiksarkar/malaria-forecasting-system) | Production malaria incidence forecasting with Terraform-managed cloud infrastructure |
-| [climate-disease-forecast](https://github.com/drkaushiksarkar/climate-disease-forecast) | Climate-driven disease prediction models using ERA5 reanalysis data |
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Apache Iceberg](https://img.shields.io/badge/Iceberg-4E9BCD?style=flat-square&logo=apacheiceberg&logoColor=white)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![DeepSpeed](https://img.shields.io/badge/DeepSpeed-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-FF6F00?style=flat-square&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Servers-6B4FBB?style=flat-square&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
 
 ---
 
-#### Research
+### GitHub activity
 
-Three active research tracks targeting NeurIPS 2026: a novel training paradigm for domain-specialized foundation models (EGDA), a multi-dimensional evaluation benchmark for health AI (CHIB), and expert routing in mixture-of-experts architectures (MoLE).
-
-Prior work in computational epidemiology established AI-driven early warning systems for infectious disease outbreaks across low and middle-income countries -- systems now operational in multiple national health programs.
-
----
-
-#### Scale
-
-| Metric | Value |
-|:-------|:------|
-| Countries served | 17 |
-| Data rows under management | 1.78 billion |
-| Vector embeddings | 268 million |
-| Knowledge graph triples | 33 million |
-| Source organizations federated | 85 |
-| Indicators catalogued | 40,000+ |
-| Geographic entities | 58,000+ |
-| Temporal coverage | 1807 to 2100 |
+<p>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=drkaushiksarkar&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=drkaushiksarkar&theme=default&hide_border=true" />
+</p>
 
 ---
 
-<sub>Delhi, India -- [drkaushiks.com](https://www.drkaushiks.com) -- [X/Twitter](https://twitter.com/drkaushiksarkar)</sub>
+### Organizations
+
+[![IMACS](https://img.shields.io/badge/IMACS-Health_Modeling-2088FF?style=flat-square&logo=github&logoColor=white)](https://github.com/IMACS-Health-Modeling) &nbsp; Foundation models, multi-agent platforms, SAGE engine -- 22 repositories
+
+[![FHF](https://img.shields.io/badge/FHF-Engineering-2088FF?style=flat-square&logo=github&logoColor=white)](https://github.com/Forecasting-Healthy-Futures) &nbsp; Climate-informed disease forecasting and early warning -- 30 repositories, 8 contributors
+
+[![UDH](https://img.shields.io/badge/UDH-Labs-2088FF?style=flat-square&logo=github&logoColor=white)](https://github.com/UnlockDigitalHealth) &nbsp; Digital health infrastructure and open-source tooling
+
+---
+
+### Selected work
+
+#### Platform and AI systems
+
+| | Repository | Description |
+|:--|:-----------|:------------|
+| ![MCP](https://img.shields.io/badge/-MCP-6B4FBB?style=flat-square) | [**imacs-sage**](https://github.com/IMACS-Health-Modeling/imacs-sage) | SAGE -- multi-agent orchestration platform for global health intelligence |
+| ![FM](https://img.shields.io/badge/-FM-EE4C2C?style=flat-square) | [**imacs-sage-playground**](https://github.com/IMACS-Health-Modeling/imacs-sage-playground) | Foundation model playground with 7B parameter MoLE expert routing |
+| ![Agents](https://img.shields.io/badge/-Agents-FF6F00?style=flat-square) | [**AI-Sandbox**](https://github.com/IMACS-Health-Modeling/AI-Sandbox) | RAG pipelines, multi-agent prototyping, tool-calling experimentation |
+| ![ML](https://img.shields.io/badge/-ML-009688?style=flat-square) | [**malaria-intelligence-platform**](https://github.com/IMACS-Health-Modeling/malaria-intelligence-platform) | Multi-country malaria analytics with climate-driven forecasting |
+
+#### Data infrastructure and production
+
+| | Repository | Description |
+|:--|:-----------|:------------|
+| ![Data](https://img.shields.io/badge/-1.78B_rows-232F3E?style=flat-square) | [**sage-warehouse-master**](https://github.com/drkaushiksarkar/sage-warehouse-master) | Analytical warehouse with MCP server, enterprise API, and FM training pipeline |
+| ![MCP](https://img.shields.io/badge/-MCP-6B4FBB?style=flat-square) | [**spectra-enterprise**](https://github.com/drkaushiksarkar/spectra-enterprise) | Health intelligence with multi-agent orchestration and autonomous data fusion |
+| ![TS](https://img.shields.io/badge/-890K_LOC-3178C6?style=flat-square) | [**disease-surveillance-platform**](https://github.com/drkaushiksarkar/disease-surveillance-platform) | Full-stack autonomous surveillance with agent-driven anomaly detection |
+| ![Terraform](https://img.shields.io/badge/-IaC-7B42BC?style=flat-square) | [**malaria-forecasting-system**](https://github.com/drkaushiksarkar/malaria-forecasting-system) | Autonomous pipeline orchestration with self-healing deployment |
+| ![ERA5](https://img.shields.io/badge/-Climate-4E9BCD?style=flat-square) | [**climate-disease-forecast**](https://github.com/drkaushiksarkar/climate-disease-forecast) | Agent-based ensemble modeling with ERA5 reanalysis integration |
+
+---
+
+### Research
+
+Three tracks targeting **NeurIPS 2026**:
+
+| Paper | Focus |
+|:------|:------|
+| **EGDA** | Novel training paradigm for domain-specialized foundation models |
+| **CHIB** | Multi-dimensional evaluation benchmark for health AI |
+| **MoLE** | Expert routing in mixture-of-experts architectures |
+
+Prior work established AI-driven early warning systems for infectious disease outbreaks across low and middle-income countries -- now operational in multiple national health programs.
+
+---
+
+### Scale
+
+| | |
+|:---|:---|
+| **1.78B** data rows under management | **268M** vector embeddings |
+| **33M** knowledge graph triples | **85** source organizations federated |
+| **40,000+** indicators catalogued | **58,000+** geographic entities |
+| **17** countries served | **1807--2100** temporal coverage |
+
+---
+
+<sub>Delhi, India</sub>
