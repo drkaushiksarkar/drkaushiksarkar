@@ -80,7 +80,7 @@ Serving         TiTiler (COG), FastAPI, Next.js
 | [malaria-intelligence-platform](https://github.com/IMACS-Health-Modeling/malaria-intelligence-platform) | Multi-country malaria analytics with climate-driven forecasting and intervention tracking |
 | [imacs-cdah-main](https://github.com/IMACS-Health-Modeling/imacs-cdah-main) | Climate Data Analytics Hub -- multi-tenant health intelligence with data fabric and RBAC |
 
-**Data infrastructure and research** (personal)
+**Data infrastructure and research**
 
 | Repository | What it does |
 |:-----------|:-------------|
