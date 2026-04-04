@@ -103,13 +103,16 @@ Foundation models. Multi-agent orchestration. Billion-row data infrastructure.
 
 ### GitHub activity
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=drkaushiksarkar&theme=default&hide_border=true" height="170" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=drkaushiksarkar&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=drkaushiksarkar&theme=minimal&hide_border=true&area=true&custom_title=Contribution%20Activity" />
+  <img alt="Contribution Activity" src="https://github-readme-activity-graph.vercel.app/graph?username=drkaushiksarkar&theme=minimal&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" />
+</picture>
 
 | Commits | Issues | Pull requests | Repositories |
 |:-------:|:------:|:-------------:|:------------:|
-| ![Commits](https://img.shields.io/badge/1%2C000+-2088FF?style=flat-square&logo=git&logoColor=white) | ![Issues](https://img.shields.io/badge/300+-28A745?style=flat-square&logo=github&logoColor=white) | ![PRs](https://img.shields.io/badge/active-6F42C1?style=flat-square&logo=github&logoColor=white) | ![Repos](https://img.shields.io/badge/42-232F3E?style=flat-square&logo=github&logoColor=white) |
+| ![Commits](https://img.shields.io/badge/commits-3,000+-0A66C2?style=flat-square&logo=git&logoColor=white) | ![Issues](https://img.shields.io/badge/issues-300+-2EA043?style=flat-square&logo=github&logoColor=white) | ![PRs](https://img.shields.io/badge/PRs-active-6F42C1?style=flat-square&logo=githubactions&logoColor=white) | ![Repos](https://img.shields.io/badge/repos-42-F05032?style=flat-square&logo=github&logoColor=white) |
+
 
 ---
 
