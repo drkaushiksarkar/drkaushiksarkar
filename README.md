@@ -44,10 +44,13 @@ Foundation models. Multi-agent orchestration. Billion-row data infrastructure.
 
 ### GitHub activity
 
-<p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=drkaushiksarkar&cache_seconds=1800&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=false" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=drkaushiksarkar&theme=default&hide_border=true" />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=drkaushiksarkar&theme=default&hide_border=true" height="170" />
 </p>
+
+| Commits | Issues | Pull requests | Repositories |
+|:-------:|:------:|:-------------:|:------------:|
+| ![Commits](https://img.shields.io/badge/1%2C000+-2088FF?style=flat-square&logo=git&logoColor=white) | ![Issues](https://img.shields.io/badge/300+-28A745?style=flat-square&logo=github&logoColor=white) | ![PRs](https://img.shields.io/badge/active-6F42C1?style=flat-square&logo=github&logoColor=white) | ![Repos](https://img.shields.io/badge/42-232F3E?style=flat-square&logo=github&logoColor=white) |
 
 ---
 
