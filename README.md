@@ -45,7 +45,7 @@ Foundation models. Multi-agent orchestration. Billion-row data infrastructure.
 ### GitHub activity
 
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=drkaushiksarkar&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=false" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=drkaushiksarkar&cache_seconds=1800&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=false" />
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=drkaushiksarkar&theme=default&hide_border=true" />
 </p>
 
