@@ -1,6 +1,6 @@
 ## Kaushik Sarkar
 
-**AI and product leader** building production systems at the intersection of health, economics, and climate. 17 years scaling technology-driven products across 17 countries.
+**AI and product leader** building intelligent systems across health, development finance, and climate sectors. Two decades scaling technology-driven products across 17 countries.
 
 Foundation models. Multi-agent orchestration. Billion-row data infrastructure.
 
